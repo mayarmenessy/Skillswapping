@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const connection = mongoose
-  .createConnection("mongodb://localhost:27017/newtodo")
+  .createConnection("mongodb+srv://mayarmenessy:Skill-Swapping@cluster0.1ixo1rw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .on("open", () => {
     console.log("MongoDb Connected");
   })
